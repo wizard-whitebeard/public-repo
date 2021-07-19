@@ -5,6 +5,10 @@ on:
     branches:
       - main
 jobs:
-  call-job:
+  call-same-repo:
     runs-on: ubuntu-latest
     uses: wizard-whitebeard/public-repo/.github/workflows/main.yml@main
+    
+  call-internal-repo:
+    runs-on: ubuntu-latest
+    uses: wizard-whitebeard/internal-repo/.github/workflows/called.yml@main
