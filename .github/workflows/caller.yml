@@ -11,4 +11,4 @@ jobs:
     
   call-internal-repo:
     runs-on: ubuntu-latest
-    uses: wizard-whitebeard/internal-repo/.github/workflows/called.yml@main
+    uses: wizard-whitebeard/cmw-jen-testing/.github/workflows/called.yml@main
